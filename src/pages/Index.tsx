@@ -1,10 +1,8 @@
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
-import TipsSection from "@/components/TipsSection";
-import ResourcesSection from "@/components/ResourcesSection";
-import ProtectionSection from "@/components/ProtectionSection";
-import HelpSection from "@/components/HelpSection";
-import PasswordGenerator from "@/components/PasswordGenerator";
+import ServicesSection from "@/components/ServicesSection";
+import GallerySection from "@/components/GallerySection";
+import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -12,11 +10,9 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Navigation />
       <HeroSection />
-      <TipsSection />
-      <ResourcesSection />
-      <ProtectionSection />
-      <HelpSection />
-      <PasswordGenerator />
+      <ServicesSection />
+      <GallerySection />
+      <ContactSection />
       <Footer />
     </div>
   );
